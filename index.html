@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Undangan Ulang Tahun Tia</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background: linear-gradient(135deg, #fbcfe8, #f9a8d4);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 2rem;
+      color: #4b5563;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background-color: rgba(255,255,255,0.95);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(219, 39, 119, 0.3);
+      padding: 2.5rem 3rem;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      color: #be185d;
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+    .btn-primary {
+      background-color: #db2777;
+      color: white;
+      padding: 0.8rem 2.5rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+    .btn-primary:hover {
+      background-color: #9d174d;
+    }
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Musik otomatis -->
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2022/03/28/audio_8b5477e6ea.mp3?filename=soft-calm-music-11253.mp3" type="audio/mpeg" />
+    Browser anda tidak mendukung audio.
+  </audio>
+
+  <!-- Halaman utama dengan link -->
+  <div class="container">
+    <h1>Selamat Datang di Halaman Undangan</h1>
+    <p>Klik tombol di bawah untuk membuka undangan ulang tahun Tia:</p>
+    <a href="#undangan" class="btn-primary">Buka Undangan</a>
+  </div>
+
+  <!-- Undangan lengkap -->
+  <div class="container" id="undangan">
+    <h1>Undangan Ulang Tahun</h1>
+    <p>
+      Dengan hormat,<br /><br />
+      Kami mengundang Anda untuk hadir dalam acara ulang tahun:<br /><br />
+      <strong>Tia Tunggali</strong><br />
+      📅 Tanggal: 12 Mei 2025<br />
+      📍 Tempat: Gorontalo, Suwawa<br /><br />
+      Kehadiran dan doa restu Anda sangat berarti bagi kami.
+    </p>
+    <a
+      href="https://wa.me/6281243466284?text=Halo%20Tia%2C%20saya%20ingin%20konfirmasi%20kehadiran%20di%20acara%20ulang%20tahun%20Anda."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="btn-primary"
+      >Konfirmasi Kehadiran</a
+    >
+  </div>
+</body>
+</html>
+
+
